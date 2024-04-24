@@ -1,0 +1,13 @@
+@import './base/base';
+@import './block/**/*.scss';
+
+// @import './block/footer';
+// @import './block/sidebar';
+
+$color: green;
+
+body {
+    color: $color;
+    display: grid;
+    transition: all 0.2s ease-in;
+}
